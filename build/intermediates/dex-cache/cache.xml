@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/libs/additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/additionnal-107724b2a63131a61262905e1eb2f3789e6d69a1.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/classes-5be47882718687de6cf11f3b62f9d46617e8f89b.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/classes-8e482bbfd96ce4e85e31a16c5702c867cb54417a.jar" />
+    </item>
+    <item
+        jar="/home/hector/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/picasso-2.5.2-6b2a14f6862264fe44982ea79176ad1389f7a9bb.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/libs/Parse-1.9.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/Parse-1.9.1-ff7ff6630d8d54c164bf5f891afc630d12ee4dde.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/libs/additionnal.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bd9e8dc422bb8c8405359947fe9f4282b49f57f4">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/additionnal-adca714cfe95fa1c1b6bf5e6dc7b71764d84cbeb.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/classes-a74da9793e5bf070264eb47ab2ed9dc8a3e43b82.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/libs/activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/activation-03e751449f97ff4229d93e92a0451d15004a6988.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/libs/mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/mail-3937bd8597d0bd6d284228cf96f739edf921a6ab.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/libs/sinch-android-verification-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a80bcb4d9c379f43a63a7d580bed6df3ddd19db9">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/sinch-android-verification-1.0.1-011eb7b4a9d975a73315cc783dde575d851b0f47.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/classes-7cc0ffe729aa7cb55e56edca68efe5c1f29d4f06.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/exploded-aar/com.android.support/design/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fc63b820d54c8a27a3a614bdd93920e0076581c2">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/classes-2c8780a05402680cb3ff1d5c3a1c661dc8e10174.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/libs/mail.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="428e267abff0d10802ccde86b915da2c20471160">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/mail-1eaf1272ef1d9e65d8334330317117bf7ded42e7.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/libs/PayPalAndroidSDK-2.9.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ec5f3d25ec21b18a0127332e63d90adbb582fb34">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/PayPalAndroidSDK-2.9.10-9d38319f52562ae25b8b036380afd1cc74af5763.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/classes-e3f51626eb836bb2ee6c5a93134eb801574b546f.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5b37cf49773f7f17aca9830efd3053b0cac56728">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/classes-c464dd7518ebd38774cb6216a56f53b645ebcbfe.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-33a26640cc759ca8c9bd555d32e73d781c7c9fc4.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-0885dde3f31c878a77b8e3deead301d5a6b15931.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/libs/sinch-android-verification-1.0.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a80bcb4d9c379f43a63a7d580bed6df3ddd19db9">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/sinch-android-verification-1.0.1-b5351dd6f0fbce41159952165ba0114d61ae7c08.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-faecbba96b465457d393f9eb7cbc421f01cb065a.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/School-Projects/app/libs/Parse-1.9.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1b065010f3c9d441ede9078aca8eabcd1c81e647">
+        <dex dex="/home/hector/Android/SoftwareProject/School-Projects/app/build/intermediates/pre-dexed/debug/Parse-1.9.1-54162a53757bed6323f5c081f727b310fdac520c.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/libs/bolts-android-1.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="6ee2953ccf51ce72b6d548c30c4633b99eb4f9dd">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/bolts-android-1.2.0-8b053939cf00a73e8bb0fd69bba6c912490f976a.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/classes-faf7a5cd76553a9e1c6ff593948f85296fbc3c4d.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-5c8e2f0cea6c0e04176246c375baf2b1f2b71913.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/libs/PayPalAndroidSDK-2.9.10.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ec5f3d25ec21b18a0127332e63d90adbb582fb34">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/PayPalAndroidSDK-2.9.10-6ff7a3219ca6b6d3b342b037e711ce76b57b705e.jar" />
+    </item>
+    <item
+        jar="/home/hector/Android/SoftwareProject/hi_run/app/libs/activation.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1257cbff6faa44c1f325ae0d9413522d4644383">
+        <dex dex="/home/hector/Android/SoftwareProject/hi_run/app/build/intermediates/pre-dexed/debug/activation-42c30917d83c0ecf6b13f61fe267f2ea47cd9e75.jar" />
+    </item>
+
+</items>
