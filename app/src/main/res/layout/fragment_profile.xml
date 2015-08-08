@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/selected_gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginTop="1dp"
+                android:layout_gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/TITLE"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="My Account"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:padding="10dp"
+                    android:singleLine="true" />
+                <TextView
+                    android:id="@+id/nameu"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:textColor="@color/bg_login"
+                    android:hint="name"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+
+                <TextView
+                    android:id="@+id/Birthdayu"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:textColor="@color/bg_login"
+                    android:background="@color/white"
+                    android:hint="Birthday"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/Addressu"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:hint="Address"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/Cityu"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:hint="City"
+                    android:padding="10dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/white"
+                    />
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:orientation="horizontal" >
+                <EditText
+                    android:id="@+id/Stateu"
+                    android:layout_width="145dp"
+                    android:paddingLeft="10dp"
+                    android:layout_height="45dp"
+                    android:background="@color/white"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:hint="State"
+                    android:singleLine="true"
+                    />
+
+
+                <EditText
+                    android:id="@+id/Zipu"
+                    android:padding="10dp"
+                    android:layout_width="150dp"
+                    android:layout_height="45dp"
+                    android:paddingLeft="10dp"
+                    android:hint="Zip"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/white"
+                    android:inputType="number"
+                    />
+
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/Phoneu"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:hint="Phone Number"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+
+                <EditText
+                    android:id="@+id/emailu"
+                    android:layout_width="300dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:hint="Email Address"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"/>
+
+
+                <Spinner
+                    android:id="@+id/spinner2u"
+                    android:layout_marginLeft="30dp"
+                    android:layout_width="300dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:textColor="@color/input_register"
+                    android:textColorHint="@color/input_register_hint"
+                    />
+                <EditText
+                    android:id="@+id/emailV"
+                    android:layout_width="300dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_height="45dp"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginTop="2dp"
+                    android:padding="10dp"
+                    android:background="@color/white"
+                    android:hint="pin"
+                    android:singleLine="true" />
+                <!-- Login Button -->
+
+                <Button
+                    android:id="@+id/btnUpdate"
+                    android:layout_width="300dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"
+                    android:padding="10dp"
+                    android:background="@color/myTextPrimaryColor"
+                    android:textColor="@color/white"
+                    android:text="Update Profile"
+                    />
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>
+

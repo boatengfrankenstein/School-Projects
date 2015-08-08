@@ -1,0 +1,159 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DetailView">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/bottomBar">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <TextView
+            android:id="@+id/JobNameDV"
+            android:text="Title"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/JobDescriptionDV"
+            android:text="Job Description"
+            android:textSize="23sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+
+        <View
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+
+        <TextView
+            android:id="@+id/JobPayDV"
+            android:text="200"
+            android:textSize="23sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/JobDateDV"
+            android:text="posted on.."
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/location"
+            android:background="@color/lbl_name"
+            android:textColor="@color/white"
+            android:text="Location"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="45dp" />
+
+
+        <Button
+            android:id="@+id/bid"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:textStyle="bold"
+            android:layout_marginTop="15dp"
+            android:padding="10dp"
+            android:background="@color/myTextPrimaryColor"
+            android:textColor="@color/white"
+            android:text="Bid"
+            />
+
+    </LinearLayout>
+
+        <!-- some scrolling content -->
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomBar"
+        android:layout_height="48dp"
+        android:layout_width="fill_parent"
+        android:orientation="horizontal"
+        android:background="@color/btn_logut_bg"
+        android:layout_alignParentBottom="true">
+
+
+        <!-- Some Buttons -->
+        <Button
+            android:id="@+id/FlagButtonDV"
+            android:layout_gravity="center"
+            android:background="@drawable/flagn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/ClientDV"
+            android:background="@drawable/details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/RefuseButtonDV"
+            android:background="@drawable/refuse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/AcceptButtonDV"
+            android:background="@drawable/add_runner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/DeleteButtonDV"
+            android:background="@drawable/trash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/showrating"
+            android:background="@drawable/rate"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/AcceptButtonDVC"
+            android:background="@drawable/accept_c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/CompletedButtonDV"
+            android:background="@drawable/completed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

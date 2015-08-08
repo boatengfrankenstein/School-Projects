@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Hi-Run</string>
+    <string name="State_prompt">Choose a State</string>
+    <string name="hello_world">Hello world! OK!</string>
+    <string name="logout">Logout</string>
+    <string name="role_choose">Choose your Destiny</string>
+    <string name="str_atv_places">Enter Place Here</string>
+    <string name="description_hint">Description</string>
+    <string name="title_text">Job Posting</string>
+    <string name="Job_hint">Job Title</string>
+    <string name="Money_hint">willing to offer</string>
+    <string name="submit_text">Post</string>
+    <string name="delete_item">Delete Item</string>
+    <string name="delete_title">Delete</string>
+    <string name="food_total_text">Total Calories:</string>
+    <string name="cal_text">Cal.</string>
+    <string name="food_items_num">Food Items:</string>
+
+    <string-array name="register_role">
+        <item>Client</item>
+        <item>Runner</item>
+    </string-array>
+    <string name="drawer_open">Menu opened</string>
+    <string name="drawer_close">Menu closed</string>
+    <string name="FAQS">FAQS</string>
+    <string name="Payments">Payments</string>
+    <string name="myaccount">My Account</string>
+    <string name="Notifications">Notifications</string>
+    <string name="Jobs">Jobs</string>
+    <string name="action_search">Search</string>
+    <string name="action_filter">Filter</string>
+    <string name="enterphonenumber">Enter your phone number</string>
+    <string name="sending_sms">Sending pin to...</string>
+    <string name="flashcalling">We\'re requesting a flash call to</string>
+    <string name="inprogress">Verification in\nprogress</string>
+    <string name="verified">Verification successful</string>
+    <string name="failed">Verification failed</string>
+    <string name="openDrawer">open drawer</string>
+    <string name="closeDrawer">close drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_card_list">CardListActivity</string>
+    <string name="title_activity_runner_register">RunnerRegisterActivity</string>
+    <string name="title_activity_payments">PaymentsActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="Fragment_Job">Welcome To jobs page</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="title_activity_display_foods">DisplayFoodsActivity</string>
+    <string name="title_activity_food_item_details">FoodItemDetailsActivity</string>
+    <string name="title_activity_display_activitiy">DisplayActivitiy</string>
+    <string name="title_activity_detail_view">DetailView</string>
+    <string name="title_activity_json">JsonActivity</string>
+    <string name="title_activity_jobs">JobsActivity</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="flag_title">Flag</string>
+    <string name="Acpt_title">Accept</string>
+    <string name="cmp_title">Completed</string>
+    <string name="action_add">add</string>
+    <string name="Refuse">Refuse</string>
+    <string name="action_logout">logout</string>
+    <string name="action_refresh">refresh</string>
+</resources>

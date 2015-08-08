@@ -1,0 +1,13 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <!-- Per the design guidelines, navigation drawers should be between 240dp and 320dp:
+         https://developer.android.com/design/patterns/navigation-drawer.html -->
+    <dimen name="navigation_drawer_width">320dp</dimen>
+    <dimen name="title">18dp</dimen>
+    <dimen name="rating">14dip</dimen>
+    <dimen name="genre">20dip</dimen>
+    <dimen name="year">10dip</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+</resources>

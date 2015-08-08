@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/selected_gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:background="@color/selected_gray"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="1dp"
+        >
+
+        <Button
+            android:id="@+id/autofillp"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/lbl_name"
+            android:text="Autofill"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+        <Spinner
+            android:id="@+id/spinnerP"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="2dp"
+            android:padding="10dp"
+            android:background="@color/white"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            />
+
+        <EditText
+            android:id="@+id/JobEdittext"
+            android:hint="Job Title"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:singleLine="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="2dp"
+            android:padding="10dp"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:background="@color/white" />
+
+        <EditText
+            android:id="@+id/DescriptionEdittext"
+            android:hint="Job Description........"
+            android:gravity="start"
+            android:layout_width="350dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:padding="10dp"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:background="@color/white" />
+
+        <EditText
+            android:id="@+id/JobAddress"
+            android:hint="Drop off location"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:singleLine="true"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="2dp"
+            android:padding="10dp"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:background="@color/white" />
+        <EditText
+            android:id="@+id/MoneyEdittext"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"
+            android:padding="10dp"
+            android:inputType="numberDecimal"
+            android:background="@color/white"
+            android:textColor="@color/input_register"
+            android:textColorHint="@color/input_register_hint"
+            android:hint="@string/Money_hint"/>
+
+        <Button
+            android:id="@+id/submit_button"
+            android:text="@string/submit_text"
+            android:layout_width="350dp"
+            android:layout_height="45dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:background="@color/myTextPrimaryColor"
+            android:textColor="@color/white"/>
+
+        </LinearLayout>
+    
+</LinearLayout>

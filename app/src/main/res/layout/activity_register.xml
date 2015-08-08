@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/selected_gray"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="100dp"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/autofill"
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:layout_height="45dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/lbl_name"
+            android:text="Autofill"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16dp" />
+
+    <EditText
+    android:id="@+id/userName"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:hint="Enter a Username"
+    android:singleLine="true"
+    android:inputType="textCapWords"
+    />
+
+    <EditText
+    android:id="@+id/Fname"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:hint="First Name"
+    android:singleLine="true"
+    android:inputType="textCapWords" />
+
+    <EditText
+    android:id="@+id/Lname"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:background="@color/white"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:hint="Last Name"
+    android:padding="10dp"
+    android:singleLine="true"
+    android:inputType="textCapWords"
+    />
+        <EditText
+            android:id="@+id/register_birthday"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:background="@color/white"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="2dp"
+            android:hint="Birthday"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:inputType="textCapWords"
+            android:focusableInTouchMode="false"
+            />
+   <EditText
+   android:id="@+id/Zip"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:background="@color/white"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:hint="Enter Zip"
+    android:padding="10dp"
+    android:singleLine="true"
+    android:inputType="number"
+    />
+
+    <TextView
+    android:id="@+id/State"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:hint="State"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:width="250dip"
+    />
+
+    <TextView
+    android:id="@+id/City"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:hint="City"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    android:width="250dip"
+     />
+
+    <EditText
+    android:id="@+id/Phone"
+    android:layout_width="300dp"
+    android:layout_marginLeft="30dp"
+    android:layout_height="45dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:hint="Phone Number"
+    android:inputType="phone"
+    android:singleLine="true" />
+
+    <EditText
+    android:id="@+id/email"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:hint="Email Address"
+    android:inputType="textEmailAddress"
+    android:singleLine="true"/>
+
+    <EditText
+    android:id="@+id/password"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:background="@color/white"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:padding="10dp"
+    android:singleLine="true" />
+
+    <EditText
+    android:id="@+id/password_chk"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginTop="2dp"
+    android:background="@color/white"
+    android:hint="Re-Enter Password"
+    android:inputType="textPassword"
+    android:padding="10dp"
+    android:singleLine="true" />
+
+    <Spinner
+    android:id="@+id/spinner2"
+    android:layout_marginLeft="30dp"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@color/white"
+    android:textColor="@color/input_register"
+    android:textColorHint="@color/input_register_hint"
+    />
+
+    <!-- Login Button -->
+
+    <Button
+    android:id="@+id/btnRegister"
+    android:layout_width="300dp"
+    android:layout_height="45dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginBottom="2dp"
+    android:textStyle="bold"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@color/myTextPrimaryColor"
+    android:textColor="@color/white"
+    android:text="Register"
+     />
+
+    <!-- Link to Login Screen -->
+
+    <Button
+    android:id="@+id/btnLinkToLoginScreen"
+    android:layout_width="300dp"
+    android:layout_marginLeft="30dp"
+    android:layout_height="45dp"
+    android:layout_marginBottom="50dp"
+    android:layout_marginTop="2dp"
+    android:padding="10dp"
+    android:background="@null"
+    android:text="Already have an account?"
+    android:textAllCaps="false"
+    android:textColor="@color/white"
+    android:textSize="16dp" />
+    </LinearLayout>
+ </ScrollView>
+</RelativeLayout>
+
+</LinearLayout>

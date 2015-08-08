@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.team_08.hi_run.hi_run">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+
+    <!-- <todo set up vertical orientation for all> -->
+    <application
+
+        android:name=".util.ChattApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name=".Activites.MainActivity"
+            android:label="Hi-Run"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activites.LoginActivity"
+            android:label="Hi-Run"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activites.ClientRegisterActivity"
+            android:label="@string/title_activity_register"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activites.PostActivity"
+            android:label="Job Posting"
+            android:screenOrientation="portrait" >
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team_08.hi_run.hi_run.Activites.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Activites.VerificationActivity"
+            android:label="@string/title_activity_profile"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activites.DetailViewActivity"
+            android:label="@string/title_activity_detail_view"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Activites.BidActivity"
+            android:label="Bids"
+            android:screenOrientation="portrait"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.team_08.hi_run.hi_run.Activites.MainActivity" />
+        </activity>
+        <activity android:name=".Activites.JobPagerActivity"
+            android:label="JobPagerActivity"
+            android:screenOrientation="portrait"></activity>
+
+    </application>
+
+</manifest>
